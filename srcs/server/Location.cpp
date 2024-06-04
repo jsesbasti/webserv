@@ -6,12 +6,13 @@
 /*   By: jsebasti <jsebasti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 21:09:16 by rjobert           #+#    #+#             */
-/*   Updated: 2024/05/31 12:44:58 by jsebasti         ###   ########.fr       */
+/*   Updated: 2024/06/04 20:34:58 by jsebasti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Location.hpp"
 #include <Utils.hpp>
+#include <algorithm>
 
 Location::Location() : _AutoIndex(true), _allowUpload(true) {};
 
