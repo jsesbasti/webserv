@@ -6,7 +6,7 @@
 #    By: jsebasti <jsebasti@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/27 18:19:03 by rjobert           #+#    #+#              #
-#    Updated: 2024/05/31 12:55:41 by jsebasti         ###   ########.fr        #
+#    Updated: 2024/07/16 11:43:16 by jsebasti         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ OBJS_PATH	= ./OBJS/
 
 SRC_NAME = main.cpp server/Server.cpp http/Request.cpp http/Response.cpp \
 	server/Location.cpp http/DirectoryListing.cpp Config/LocationConfig.cpp \
-	Config/serverConfig.cpp Config/Parser.cpp Config/Utils.cpp Config/ParseInit.cpp Config/ParseContent.cpp \
+	Config/ServerConfig.cpp Config/Parser.cpp Config/Utils.cpp Config/ParseInit.cpp Config/ParseContent.cpp \
 	server/Cluster.cpp http/CGI.cpp Signal.cpp
 
 INC_NAME = Server.hpp Location.hpp Requst.hpp Response.hpp colors.h \
